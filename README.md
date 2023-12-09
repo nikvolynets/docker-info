@@ -56,9 +56,11 @@ Docker - a service to launch applications in containers
 - Containers can be created based on the ready image
 
 ### Example Instruction:
-- `FROM python:alpine` ## specifying the image, alpine - minimal version of the image
-- `WORKDIR /app` ## path to the folder inside the image
-- `COPY . .` ## path to the local folder on the computer
-- `CMD ["python","main.py"]` ## name of the executable file
-- `docker build .` - creates an image (run from the directory with Dockerfile)
 
+```SQL
+FROM python:alpine ## specifying the image, alpine - minimal version of the image
+WORKDIR /app ## path to the folder inside the image
+COPY . . ## path to the local folder on the computer
+CMD ["python","main.py"] ## name of the executable file
+docker build . - creates an image (run from the directory with Dockerfile)
+```
