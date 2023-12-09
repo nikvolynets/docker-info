@@ -64,3 +64,5 @@ COPY . . ## path to the local folder on the computer
 CMD ["python","main.py"] ## name of the executable file
 docker build . - creates an image (run from the directory with Dockerfile)
 ```
+
+- `docker build .` - create image (run command from Dockerfile directory)
