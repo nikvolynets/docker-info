@@ -47,7 +47,8 @@ Docker - a service to launch applications in containers
 - `docker run -it -rm <container name>` - automatically delete the container after setup
 - `\` - used for line breaks in the terminal
 
-## Docker automatically stops containers if the process is completed
+#### Docker automatically stops containers if the process is completed
+
 ### Image Creation Steps
 - Need a Dockerfile
 - Dockerfile is placed in the root folder of the application
